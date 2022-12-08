@@ -14,6 +14,11 @@
     font-family: montserrat, sans-serif;
     width: 100%;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5% auto;
+    
+
   }
   
   .card {
@@ -21,6 +26,7 @@
     width: 400px;
     height: 600px;
     perspective: 1000px;
+    display: flex;
   }
   
   .card__inner {
